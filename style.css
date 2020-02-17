@@ -1,0 +1,405 @@
+*,
+*::before,
+::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.dumb{
+    background-color: #0099FF;
+    height: 3vh;
+    width: 1000px;
+    color:white;
+    text-align: center;
+    font-size:90%;
+    padding-top:3px;
+    padding-bottom:3px;
+    margin: auto;
+}
+.big-basket{
+    width:1000px;
+    height:50px;
+    align-items: right;
+    display: flex;
+    margin: auto;
+    background-color: white;
+
+}
+.basket-div{
+    
+    width: 62px;
+    height: 50px;
+    display: flex;
+    margin-left:930px;
+    margin-top:30px;
+    
+    
+}
+.basket-div::before{
+    position: relative;
+    content: '0';
+    width: 19px;
+    height: 19px;
+    border: 1px solid #0099FF;
+    border-radius: 50%;
+    left: 45px;
+    top:18px;
+    text-align: center;
+    background-color:#0099FF;
+    color:white;
+
+}
+.header{
+    width:1000px;
+    height: 20vh;
+    padding: 0 auto;  
+    margin: auto; 
+    text-align: center; 
+    display: flex;
+    background-color: white;
+}
+.header img{
+    display: block;
+    margin: auto;
+    max-height:100px;
+    max-width:350px;
+
+}
+.xd
+{
+    width: 100%;
+}
+.menu{
+    width:1000px;
+    height:4vh;
+    background-color: white;
+    margin: auto;
+    padding:0;
+    border-top: 1px solid #0099FF;
+    z-index:1000;
+    
+}
+.sticky{
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index:1000; 
+   
+    
+}
+.sticky ol{
+    border-bottom: 1px solid #0099FF;
+}
+ol{
+    margin:auto;
+    padding:0;
+    list-style-type:none;
+    display: flex;
+    height: 4vh;
+    position: relative;
+    z-index: 1000;
+    
+}
+li{
+    height: 4vh;
+    padding: 1vh 0;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    color: #0099FF;
+}
+#li1{
+    width: 12%;
+    margin: auto;
+}
+#li2{
+    width: 9%;
+    margin: auto;
+}
+#li3{
+    width: 7%;
+    margin: auto;
+}
+#li4{
+    width: 17%;
+    margin: auto;
+}
+#li5{
+    width: 17%;
+    margin: auto;
+}
+.menu ol > li:last-child{
+   width:40%;
+   text-align: right;
+}
+.menu li:hover{
+    background-color: #F1F1F1;
+    transition: 0.5s;
+}
+.menu li:hover a{
+    color:#000033;
+}
+.menu li:last-child:hover{
+    background-color: white;
+}
+
+
+
+
+
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    display: none;
+    
+}
+.menu ul > li{
+    list-style-type: none;
+    z-index:1000;
+    background-color: black;
+    width: 100%;
+    background-color:#F1F1F1;
+    
+}
+
+.menu li:hover ul{
+    display: block;
+    background-color:#F1F1F1;
+    text-align: center;
+    list-style-type: none;
+    
+    
+}
+.menu ul > li:last-child{
+    margin-right:0px!important;
+    border:none;
+    
+}
+
+
+.menu ul > li:hover{
+    background-color:#E0E0E0;
+    font-weight: bold;
+    
+}
+.menu ul > li:last-child:hover{
+    background-color:#E0E0E0;
+}
+
+
+/******************** MAIN *****************************/
+
+.element{
+    margin-top:5vh!important;
+    height:60vh;
+    width:1000px;
+    background-color: #F1F1F1;
+    margin: auto;
+    display: flex;
+    z-index:-100;
+    
+   
+}
+.left{
+    width: 60%;
+    height:100%;
+    background-image: url(./img/plisy1.jpg);
+    background-repeat: no-repeat;
+    background-size:122%;
+    
+    
+}
+.left2{
+    width: 60%;
+    height:100%;
+    background-image: url(./img/zaluzjeDrewniane_3.jpg);
+    background-repeat: no-repeat;
+    background-size:137%;
+}
+.left3{
+    width: 60%;
+    height:100%;
+    background-image: url(./img/roletyWewnetrzne_6.jpg);
+    background-repeat: no-repeat;
+    background-size:137%;
+}
+.left4{
+    width: 60%;
+    height:100%;
+    background-image: url(./img/roletyDzienNoc.jpg);
+    background-repeat: no-repeat;
+    background-size:80%;
+}
+.left5{
+    width: 60%;
+    height:100%;
+    background-image: url(./img/zaluzjePoziome_4.jpg);
+    background-repeat: no-repeat;
+    background-size:122%;
+}
+.left6{
+    width: 60%;
+    height:100%;
+    background-image: url(./img/zaluzjePionowe_5.jpg);
+    background-repeat: no-repeat;
+    background-size:122%;
+}
+.left7{
+    width: 60%;
+    height:100%;
+    background-image: url(./img/moskitiery_5.jpg);
+    background-repeat: no-repeat;
+    background-size:162%;
+}
+.left8{
+    width: 60%;
+    height:100%;
+    background-image: url(./img/roletyZewnetrzne_2.jpg);
+    background-repeat: no-repeat;
+    background-size:122%;
+    background-position-x:center;
+}
+.left9{
+    width: 60%;
+    height:100%;
+    background-image: url(./img/markizy.jpg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 100%;
+    background-position-x: left;
+}
+.right a{
+    text-decoration: none;
+    color:#000033;
+}
+.right a:hover{
+padding: 20px 20px;
+border: 1px solid #000033;
+transition:1.0s;
+}
+.right{
+    color:#000033;
+    width:40%;
+    height:100%;
+    text-align: justify;
+    padding: 50px 50px;
+}
+.footer{
+    width:1000px;
+    height:3vh;
+    background-color: #0099FF;
+    margin:auto;
+    margin-top:5vh;
+    color:white;
+    padding: 0.5vh 0;
+    text-align: center;
+    
+   
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+}
+.arrow{
+    background-color: #0099FF;
+    width:52px;
+    height: 52px;
+    border-radius: 50%;
+    display: none;
+
+}
+.arrow img{
+    height: 50px;
+    width:50px;
+}
+.visible{
+    display: block;
+    position:fixed;
+    right:0;
+    z-index: 1001;
+    bottom:3vh;
+}
+
+/* ----------CONTACT----------*/
+.contact{
+    width: 1000px;
+    min-height: 60vh;
+    height: inherit;
+    background-color:#F1F1F1 ;
+    margin: auto;
+    padding: 2vh 5vw;
+    margin-top:5vh;
+}
+.contact p{
+    font-size: 110%;
+}
+.contact a{
+    text-decoration: none;
+    color:black;
+}
+.contact table{
+    width:100%;
+}
+.contact input,select{
+    width: 100%;
+    height:4vh;
+    font-size: 90%;
+    padding: 0 2%;
+}
+.contact input:focus{
+    border: 2px solid #0099FF;
+  box-shadow: inset 10px 20px 40px #B3E5FC;
+}
+.contact td {
+    padding-top:5vh;
+}
+textarea{
+    font-size:110%;
+    padding: 1vh 1vw;
+}
+.button-div{
+    height: 40px;
+    width: 120px;
+    margin:auto;
+}
+.send{
+    background-color: #B3E5FC;
+    margin-top:2vh;
+}
+.send:hover{
+    background-color:rgb(126, 211, 250);
+    transition: 0.8s;
+    cursor: pointer;
+}
+td{
+    width: 50%;
+}
+/* *********INFORMATIONS******************** */
+.dostawa{
+    height: 7vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+.bfl{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+}
+.bfr{
+    text-align: center;
+}
+
+@media(max-width:999px){
+
+}
